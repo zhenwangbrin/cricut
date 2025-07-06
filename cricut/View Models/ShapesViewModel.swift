@@ -69,6 +69,7 @@ final class ShapesViewModel {
 
   func removeLast() async {
     do {
+      if shapes.isEmpty { return }
       let success = try await circuitBreaker.deleteShape(shape: shapes.last!)
       if success {
         shapes.removeLast()
