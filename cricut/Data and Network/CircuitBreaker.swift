@@ -20,7 +20,7 @@ class CircuitBreaker {
   private var isPreview: Bool = false
 
   init(context: ModelContext, isPreview: Bool = false) {
-    self.isPreview = true
+    self.isPreview = isPreview
     self.context = context
     try? self.createShapeProviders()
     try? self.createShapeButtonProviders()
