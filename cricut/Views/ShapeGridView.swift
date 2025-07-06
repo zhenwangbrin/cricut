@@ -22,11 +22,16 @@ struct ShapeGridView: View {
         }
       }
     }
+    .onAppear() {
+      Task {
+        await shapesViewModel.getShapes()
+      }
+    }
   }
 }
 
 #Preview {
-  ShapeGridView(shapesViewModel:
-                  ShapesViewModel(selectedShapeName: "Circle", circuitBreaker:
-                                    getCircuitBreaker()))
+  let shapesViewModel = ShapesViewModel(circuitBreaker:
+                                          getCircuitBreaker())
+  ShapeGridView(shapesViewModel:shapesViewModel)
 }

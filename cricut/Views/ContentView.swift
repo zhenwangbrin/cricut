@@ -33,11 +33,6 @@ struct ContentView: View {
           VStack {
             ShapeGridView(shapesViewModel: shapesViewModel)
               .padding(.top)
-              .onAppear() {
-                Task {
-                  await shapesViewModel.getShapes()
-                }
-              }
             
             ButtonBar(
               buttonsViewModel: buttonsViewModel)
@@ -99,5 +94,6 @@ struct ContentView: View {
 }
 
 #Preview {
-  ContentView(circuitBreaker: getCircuitBreaker())
+  let circuitBreaker = getCircuitBreaker()
+  ContentView(circuitBreaker: circuitBreaker)
 }

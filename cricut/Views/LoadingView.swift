@@ -30,5 +30,6 @@ struct LoadingView: View {
 }
 
 #Preview {
-  LoadingView(buttonsViewModel: ButtonsViewModel(circuitBreaker: getCircuitBreaker()))
+  var buttonVM = ButtonsViewModel(circuitBreaker: getCircuitBreaker())
+  return LoadingView(buttonsViewModel: buttonVM)
 }

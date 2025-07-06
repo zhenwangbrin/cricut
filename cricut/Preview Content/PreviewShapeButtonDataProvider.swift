@@ -25,4 +25,9 @@ final class PreviewShapeButtonDataProvider: ShapeButtonDataBaseProvider {
 
     updateButtonStatus(buttonStatus: .downloaded)
   }
+
+  override func fetchData(input: ProviderInput) async throws -> ProviderOutput {
+      await self.fetchButtonsAsync()
+      return  ProviderOutput(buttons:self.buttons, success:true)
+  }
 }

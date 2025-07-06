@@ -39,6 +39,14 @@ struct ButtonBar: View {
 }
 
 #Preview {
-  ButtonBar(buttonsViewModel: ButtonsViewModel(circuitBreaker: getCircuitBreaker())) { _ in
+  struct wrapperView: View {
+    var body: some View {
+      let buttonsViewModel = ButtonsViewModel(circuitBreaker: getCircuitBreaker())
+      ButtonBar(buttonsViewModel: buttonsViewModel) { _ in
+      }.task {
+        buttonsViewModel.fetchButtons()
+      }
+    }
   }
+  return wrapperView()
 }
