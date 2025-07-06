@@ -29,9 +29,57 @@
 		7DFAFC532E16BD3A001F1D69 /* cricutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cricutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7DFAFC842E16E02F001F1D69 /* Exceptions for "cricut" folder in "cricutTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Data and Network/CircuitBreaker.swift",
+				"Data and Network/ProviderInfoProvider.swift",
+				"Data and Network/ProviderProtocol.swift",
+				"Data and Network/ShapeButtonBaseProvider.swift",
+				"Data and Network/ShapeButtonCacheProvider.swift",
+				"Data and Network/ShapeButtonDataBaseProvider.swift",
+				"Data and Network/ShapeButtonNetworkDataProvider.swift",
+				"Data and Network/ShapeButtonProviderProtocol.swift",
+				"Data and Network/ShapeDataProvider.swift",
+				Models/Button.swift,
+				Models/ProviderInfo.swift,
+				Models/Shape.swift,
+				"Preview Content/ContextSetup.swift",
+				"Preview Content/Preview Assets.xcassets",
+				"Preview Content/PreviewShapeButtonDataProvider.swift",
+				"Preview Content/PreviewShapeDataProvider.swift",
+				sampleJSON.json,
+				"View Models/ButtonsViewModel.swift",
+				"View Models/ShapesViewModel.swift",
+				Views/ButtonBar.swift,
+				Views/ContentView.swift,
+				Views/FilteredShapeView.swift,
+				Views/FilterShapeBottomBar.swift,
+				Views/LoadingView.swift,
+				Views/ShapeGridView.swift,
+			);
+			target = 7DFAFC482E16BD3A001F1D69 /* cricutTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		7DFAFC812E16DF94001F1D69 /* Exceptions for "cricut" folder in "Compile Sources" phase from "cricutUITests" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 7DFAFC4F2E16BD3A001F1D69 /* Sources */;
+			membershipExceptions = (
+				sampleJSON.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7DFAFC382E16BD3A001F1D69 /* cricut */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7DFAFC842E16E02F001F1D69 /* Exceptions for "cricut" folder in "cricutTests" target */,
+				7DFAFC812E16DF94001F1D69 /* Exceptions for "cricut" folder in "Compile Sources" phase from "cricutUITests" target */,
+			);
 			path = cricut;
 			sourceTree = "<group>";
 		};

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ShapeService.decodeButtons(jsonData:):ShapeService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.buttons">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShapeButtonNetworkDataProvider.getButtons():ShapeButtonNetworkDataProvider.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "providerInfo!.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShapeButtonBaseProvider.updateButtonStatus(buttonStatus:):ShapeButtonBaseProvider.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ShapeButtonDataBaseProvider.fetchButtonsAsync():ShapeButtonDataBaseProvider.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.buttonStatus">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ButtonsViewModel.getButtons():ButtonsViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CircuitBreaker.getShapeButtonProvider():CircuitBreaker.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "providerInfo == nil">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ButtonBar.getButtons():ButtonBar.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ProviderInfoProvider.getProviderInfo(_:):ProviderInfoProvider.swift">
+      </ContextState>
+      <ContextState
+         contextName = "cricutApp.getShapeDataProvider(mainContext:):cricutApp.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ShapeService.fetchButtonsAsync():ShapeService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.error">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShapeButtonDataBaseProvider.decodeButtons(jsonData:):ShapeButtonDataBaseProvider.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "result.buttons">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized closure #1 in ShapeButtonNetworkDataProvider.getButtons():ShapeButtonNetworkDataProvider.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "providerInfo!.networkRetries">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "cricutApp.getShapeButtonProvider():cricutApp.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ShapeButtonNetworkDataProvider.readData():ShapeButtonNetworkDataProvider.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "buttons">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ButtonsViewModel.fetchButtons():ButtonsViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CircuitBreaker.executeDataAction(providers:input:):CircuitBreaker.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ShapeButtonDataBaseProvider.fetchButtonsAsync():ShapeButtonDataBaseProvider.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "buttonStatus">
+            </PersistentString>
+            <PersistentString
+               value = "self.buttons">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShapesViewModel.getShapes():ShapesViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.shapes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShapesViewModel.clearAll():ShapesViewModel.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
