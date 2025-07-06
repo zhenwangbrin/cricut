@@ -107,7 +107,6 @@ class CircuitBreaker {
       // TODO: simpler way to keep track of caching is to try to add a version key on the backend json return.
       //  example: {buttons: [], version: 2.0.1}  if version mismatch the local version, it will try a fresh copy from network.
       // currently it's dumping network data every 2 minutes saved for buttons
-      // TODO: make retry loop for a single launch instead of falling back to preview data on fails and retry on next launch.
       let retries = type(of: provider).retries()
 
       // check retry
